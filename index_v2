@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Visit New Zealand</title>
+    <link rel="stylesheet" href="css/style_2.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+         <ul>
+         <li><a href="#" class="active">Home</a></li>
+         <li><a href="#">Page 1</a></li>
+         <li><a href="#">Page 2</a></li>
+         <li><a href="#">Page 3</a></li>
+         </ul>
+        </nav>
+    </header>
+	
+
+    <div class="hero">
+        <h1>Welcome text</h1>
+        <p>text <span class="light-text">light text</span> / text</p>
+        <div class="underline"></div>
+    </div>
+	
+	
+	
+		<div class="container">
+    <h1><strong>LOREM</strong> <span class="gray">IPSUM</span></h1>
+    <p>New Zealand</p>
+    <div class="cards">
+	  <div class="card">Page 1</div>
+      <div class="card">Page 2</div>
+      <div class="card">Page 3</div>
+    </div>
+	</div>
+	
+
+	
+		<div class="visa-entry">
+    <h1>Heading</h1>
+    <h2>Subheading</h2>
+	<div class="underline1"></div>
+
+    <p class="intro">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget eros nulla. Proin vitae urna vel elit rutrum dapibus at et urna. Vestibulum faucibus dolor quis est elementum convallis. 
+    </p>
+
+    <p class="requirements-intro">
+      Maecenas feugiat molestie suscipit. Cras pretium quam risus, finibus elementum sapien mattis quis. Sed pulvinar augue ut ipsum congue finibus.
+    
+
+      <li>Valid passport</li>
+      <li>Visa Waiver Programme and New Zealand Electronic Travel Authority (NZeTA)</li>
+      <li>Visa requirements</li>
+      <li>New Zealand Traveller Declaration</li>
+      <li>International Visitor Conservation and Tourism Levy</li>
+		
+	</p>
+
+    <p class="biosecurity">
+      Quisque lacinia massa vel facilisis mattis. Nunc volutpat justo in nulla pellentesque porttitor. Nulla purus metus, scelerisque vitae sapien sit amet, vulputate tincidunt elit. 
+    </p>
+
+    <p class="digital-nomad">
+      Etiam sit amet feugiat lorem. Sed id cursus arcu. Quisque consequat erat augue, pharetra tempor orci ullamcorper ac.
+    </p>
+
+    <p class="details">
+      Donec ac pharetra sem, ac dictum tellus. Donec aliquet mi quis consequat laoreet. Vestibulum pellentesque nibh id enim semper, eu blandit diam elementum. Nam sed nisl vel dui vehicula sodales vel in nisi. Vestibulum euismod enim sapien, in lacinia ex lobortis sed.
+	  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum lobortis tortor at lectus faucibus mattis. Nullam leo orci, gravida eu tortor porttitor, ornare placerat tellus. Aliquam quis vehicula nunc. Curabitur fringilla feugiat
+	  mattis. Vivamus ac elementum risus, a vestibulum magna. Vivamus posuere tellus lorem, pellentesque mollis enim consequat eu. Curabitur iaculis facilisis metus ut tincidunt. Donec ac mauris maximus mi consectetur ornare.
+
+
+    </p>
+  </div>
+	
+	
+    <div class="content">
+        <h2>Header</h2>
+        <p class="subheading">Subheading</p>
+        <p>New Zealand is a breathtaking island nation in the South Pacific, known for its dramatic landscapes—from snow-capped mountains to lush rainforests and pristine beaches. Home to vibrant blend of Māori and European culture and world-famous hospitality, it offers a unique blend of tradition
+		and modern
+		adventure. Whether you're hiking through Fiordland, exploring glowworm caves, or enjoying a glass of local wine, there's something magical at every turn. Come discover the natural beauty and warm spirit that make New Zealand unforgettable.
+        </p>
+    </div>
+	
+	
+	
+
+	
+	
+	
+	
+	<footer class="footer">
+        <div class="footer-content">
+            <p id="p1">&copy; 2025 NZ. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+	
+	
+	
+</body>
+</html>
