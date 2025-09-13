@@ -1,0 +1,567 @@
+/* General body styles */
+.center {
+  text-align: center;
+}
+
+html {
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; /* Remove default margin */
+    font-family: 'Poppins', sans-serif; /* Use Google font Poppins */
+    color: #000; /* Default text color black */
+}
+
+/* Header container styles */
+header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Vertically center items */
+    padding: 16px 32px; /* Padding around content */
+}
+
+/* Logo text */
+.logo {
+    font-weight: 700; /* Bold text */
+    font-size: 14px; /* Small size text */
+}
+
+/* Navigation list styles */
+nav ul {
+    display: flex; /* Horizontal menu */
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    gap: 24px; /* Space between menu items */
+}
+	
+
+/* Navigation links */
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Black text */
+    font-weight: 400; /* Normal weight */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+}
+
+/* Active menu item - Home */
+nav a.active {
+    font-weight: 700; /* Bold for active */
+}
+
+
+.grid-container { /*Creates grid for my website*/
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100vh 45vh 60vh 70vh 45vh 20vh;
+  height: 100vh;
+}
+
+.nav {
+  box-sizing: border-box;
+  text-align: right;
+  background-color: rgba(0,0,0,.5);
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  animation-name: fadein;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
+
+.nav-logo { /*Styling for logo in the navigation*/
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.nav-logo img {width:75%; height:auto;}
+
+/* CSS for block menu starts here */
+ul {
+  display: inline;
+  padding: 20px 0px 0px 0px;
+  list-style: none;
+}
+
+
+ul li {
+  font-size: 20px;
+  font-weight: 550;
+  font-style: normal;
+  display: inline-block;
+  position: relative;
+  padding: 13px 30px 17px; /*padding for main block menu buttons */
+}
+
+
+ul li:hover {
+  a {color:#808080;} /*When box is hovered over, text color changes to gray*/
+  background: white;
+  }
+ 
+/* Hover Colours*/
+a:link {color: black;} /* unvisited link */
+a:visited {color:#000;} /* visited link */
+a:hover {color: black;} /* mouse over link */
+a:active {color:#000;}  /* selected link */
+
+a {
+text-decoration: none;
+}
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px; /* space between each drop-down menu list */
+  left: 0;
+  width: 175px; /* width of drop-down menu list */
+  display: none;
+  visibility: hidden; /* this hides the drop-down menu list */
+  z-index: 1; /* for overlapping divs, bringing to the front like a drop down menu */
+}
+
+ul li ul li {
+  background: black; /* this is the drop-down menu background color */
+  display: block;
+}
+ul li ul li:hover { background: grey;} /* this is the drop-down menu hover on blocks */
+
+ul li:hover ul {
+  display: block;
+  visibility: visible; /* this makes the drop-down menu visible*/
+}
+
+/* Heading section container */
+.heading {
+    background-color: #d3d3d3; /* Light gray background */
+    padding: 300px 32px; /* Large padding top/bottom, some left/right */
+    width: 100%; /* Fill full viewport width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Heading main heading */
+.heading h1 {
+    font-weight: normal; /* normal */
+    font-size: 30px; /* Large text */
+    padding-top: 50px; /* Positions text */
+	padding-left: 60px;
+	color: #434343;
+}
+
+/* Heading paragraph text */
+.heading p {
+    font-weight: bold; /* Bold */
+    font-size: 80px; /* Slightly bigger font */
+    margin: 0; /* No margin */
+	padding-left: 60px;
+}
+
+/* Light colored text inside hero paragraph */
+.light-text {
+    color: #FFFFFF; /* White text */
+}
+
+
+.container {
+  text-align: center;
+  background-color: #434343;
+  margin-bottom: 50px;
+  padding-bottom: 100px;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+
+.card {
+  background-color: #d7d7d7;
+  color: white;
+  width: 400px;
+  height: 250px;
+  font-family: 'Poppins', sans-serif; /* Use Google font Poppins */
+  border-radius: 10px;
+  font-weight: bold; /* Bold text*/
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s;
+}
+
+
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+
+/* Content section styles */
+.content {
+    width: 100%; /* Fill full viewport width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+
+/* Content section styles */
+.content2 {
+    width: 100%; /* Fill full viewport width */
+    box-sizing: border-box; /* Include padding in width */
+	background-color: #434343;
+}
+
+
+
+#h1 {
+    font-weight: 700; /* Bold */
+    font-size: 30px; /* Medium size */
+	padding: 50px 50px 0px 0px;  /*positioning text*/
+	color: black;
+	display: flex; /* Activates Flexbox for its text */
+  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+}
+
+
+#h2 {
+    font-weight: 700; /* Bold */
+    font-size: 30px; /* Medium size */
+	padding: 150px 500px 0px 50px;  /*positioning text*/
+	color: black;
+	  align-items: center; /* Vertically centers text */
+  justify-content: left; /* Horizontally centers text */
+  margin: auto;
+}
+
+#h-content1 {
+    font-weight: 700; /* Bold */
+    font-size: 30px; /* Medium size */
+	padding: 50px 500px 0px 50px;  /*positioning text*/
+	color: black;
+}
+
+#h-content2 {
+    font-weight: 700; /* Bold */
+    font-size: 30px; /* Medium size */
+	padding: 70px 500px 0px 50px;  /*positioning text*/
+	color: white;
+}
+
+#h-content3 {
+    font-weight: 700; /* Bold */
+    font-size: 30px; /* Medium size */
+	padding: 50px 500px 0px 50px;  /*positioning text*/
+	color: black;
+}
+
+
+#h-content4 {
+    font-weight: 700; /* Bold */
+    font-size: 30px; /* Medium size */
+	padding: 70px 500px 0px 50px;  /*positioning text*/
+	color: white;
+}
+
+#h4 {
+    font-weight: 700; /* Bold */
+    font-size: 30px; /* Medium size */
+	padding: 70px 500px 0px 50px;  /*positioning text*/
+	color: white;
+	  align-items: center; /* Vertically centers text */
+  justify-content: left; /* Horizontally centers text */
+  margin: auto;
+}
+
+#h5 {
+    font-size: 30px; /* Medium size */
+	padding: 50px 50px 0px 0px;  /*positioning text*/
+	color: white;
+	display: flex; /* Activates Flexbox for its text */
+  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+}
+
+
+
+#p2 {
+font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+    box-sizing: border-box; /* Include padding in width */
+	padding: 30px 40px 30px 1050px; /*positioning text*/
+	color: black;
+		display: flex; /* Activates Flexbox for its text */
+  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+
+#p3 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	box-sizing: border-box; /* Include padding in width */
+	padding: 30px 700px 100px 50px; /*positioning text*/
+	color: black;
+	  align-items: center; /* Vertically centers text */
+  justify-content: left; /* Horizontally centers text */
+  margin: auto;
+}
+
+
+#p4 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	padding: 30px 40px 150px 650px; /*positioning text*/
+	color: black;
+	  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p5 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	padding: 30px 40px 100px 650px; /*positioning text*/
+	color: black;
+	  align-items: center; /* Vertically centers text */
+  justify-content: left; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p6 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	box-sizing: border-box; /* Include padding in width */
+	padding: 30px 700px 30px 50px; /*positioning text*/
+	color: black;
+	  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p7 {
+font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+    box-sizing: border-box; /* Include padding in width */
+	padding: 0px 40px 0px 1050px; /*positioning text*/
+	color: black;
+		display: flex; /* Activates Flexbox for its text */
+  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p8 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	box-sizing: border-box; /* Include padding in width */
+	padding: 0px 700px 0px 50px; /*positioning text*/
+	color: black;
+	  align-items: center; /* Vertically centers text */
+  justify-content: left; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p9 {
+	font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	box-sizing: border-box; /* Include padding in width */
+	padding: 30px 700px 100px 50px; /*positioning text*/
+	color: white;
+	  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p10 {
+font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+    box-sizing: border-box; /* Include padding in width */
+	padding: 0px 40px 0px 1050px; /*positioning text*/
+	color: white;
+		display: flex; /* Activates Flexbox for its text */
+  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p11 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+    box-sizing: border-box; /* Include padding in width */
+	padding: 30px 40px 30px 650px; /*positioning text*/
+	color: white;
+		  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p12 {
+	font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	box-sizing: border-box; /* Include padding in width */
+	padding: 0px 700px 0px 50px; /*positioning text*/
+	color: white;
+	  align-items: center; /* Vertically centers text */
+  justify-content: left; /* Horizontally centers text */
+  margin: auto;
+}
+
+
+/* Placeholder box for the image */
+.img-placeholder {
+    position: absolute;
+    padding: 150px 100px; /* Padding around content */
+    box-sizing: border-box; /* Include padding in width */
+    background-color: #D9D9D9; /* Color of the box */
+	margin-left: 900px;
+}
+
+/* Placeholder box for the image */
+.img-placeholder2 {
+    position: absolute;
+    padding: 150px 200px; /* Padding around content */
+    box-sizing: border-box; /* Include padding in width */
+    background-color: #D9D9D9; /* Color of the box */
+	margin-left: 80px;
+}
+
+/* Placeholder box for the image */
+.img-placeholder3 {
+    position: absolute;
+    padding: 150px 150px; /* Padding around content */
+    box-sizing: border-box; /* Include padding in width */
+    background-color: #D9D9D9; /* Color of the box */
+	margin-left: 800px;
+	margin-top: 150px;
+}
+
+/* Placeholder box for the image */
+.img-placeholder4 {
+    position: absolute;
+    padding: 150px; /* Padding around content */
+    box-sizing: border-box; /* Include padding in width */
+    background-color: #D9D9D9; /* Color of the box */
+	margin-left: 90px;
+}
+
+/* Placeholder box for the image */
+.img-placeholder5 {
+    position: absolute;
+    padding: 150px 120px; /* Padding around content */
+    box-sizing: border-box; /* Include padding in width */
+    background-color: #D9D9D9; /* Color of the box */
+	margin-left: 950px;
+}
+
+/* Placeholder box for the image */
+.img-placeholder6 {
+    position: absolute;
+    padding: 150px 200px; /* Padding around content */
+    box-sizing: border-box; /* Include padding in width */
+    background-color: #D9D9D9; /* Color of the box */
+	margin-left: 90px;
+}
+
+/* Placeholder box for the image */
+.img-placeholder7 {
+    position: absolute;
+    padding: 150px 100px; /* Padding around content */
+    box-sizing: border-box; /* Include padding in width */
+    background-color: #D9D9D9; /* Color of the box */
+	margin-left: 900px;
+}
+
+
+/* Placeholder box for the image */
+.img-placeholder {
+	position: absolute;
+    right: 120px; /* Distance from the right edge of the screen */
+    top: 1650px; /* Vertically center the box */
+    transform: translateY(-50%); /* Adjust the box's position to be perfectly centered */
+    width: 400px; /* Width of the box */
+    height: 550px; /* Height of the box */
+    background-color: #D9D9D9; /* Color of the box */
+}
+
+.img-placeholder2 {
+	position: absolute;
+    right: 120px; /* Distance from the right edge of the screen */
+    top: 2400px; /* Vertically center the box */
+    transform: translateY(-50%); /* Adjust the box's position to be perfectly centered */
+    width: 400px; /* Width of the box */
+    height: 550px; /* Height of the box */
+    background-color: #D9D9D9; /* Color of the box */
+}
+
+
+
+
+
+
+
+/* Footer Styles */
+.footer {
+    background-color: #434343;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.footer .social-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .footer .social-links {
+        font-size: 14px;
+    }
+}
+
+darken {
+  color: #3F56A8;
+}
