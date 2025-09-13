@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Visit Aotearoa | New Zealand Travel Guide</title>
+	<!-- Add Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style_2.css" />
+	<script src="js/accordiontext.js"></script>
+</head>
+	
+<body>
+    <header>
+        <div class="logo">New Zealand</div>
+        <nav>
+         <ul>
+         <li><a href="index_3.html">Home</a></li>
+         <li><a href="page2.html" class="active">Page 2</a></li>
+         <li><a href="page3.html">Page 3</a></li>
+         <li><a href="page4.html">Page 4</a></li>
+         </ul>
+        </nav>
+    </header>
+	
+    
+    <div class="heading">
+	<h1>Explore</h1>
+        <p>Urban NZ</p>
+	</div>
+	
+	
+   	<div class="container">
+    <div class="cards">
+      <div class="card"><a href="#h-content1">Visit Auckland</a></div>
+      <div class="card"><a href="#h-content2">Visit Wellington</a></div>
+    </div>
+	</div>
+	
+
+	<div class="content">
+					<h2 id="h-content1">AUCKLAND</h2>
+					<h3 subheading>Tāmaki Makaurau</h3>
+					
+					<p>Nestled between two stunning harbours and surrounded by volcanic hills, Auckland is a vibrant, cosmopolitan city that offers the perfect blend of natural beauty and urban excitement. New Zealand’s largest city offers a dynamic blend of natural beauty, urban sophistication, and cultural richness.  Known as the "City of Sails," it boasts world-class dining, blend of European and Asian cultures, and endless outdoor adventures—from sailing on the sparkling Waitematā Harbour to exploring lush rainforests and black-sand beaches just a short drive away. Whether you're climbing the iconic Sky Tower for panoramic views or savouring local wines on nearby Waiheke Island, Auckland invites travellers to experience New Zealand's warm hospitality and breathtaking diversity all in one unforgettable destination.
+		</p>		
+
+	</div>
+
+	
+     <h2 class="paragraph-header">Waitematā Harbour Ferry</h2>
+			<p class="paragraph-text">Take a scenic boat ride through the world-famous Waitematā Harbour. For $9.90 per adult and $5.94 per child (5-15), you can hop on  the scenic Waitematā Harbour ferry  to Devonport and enjoy a picturesque journey from downtown Auckland to the charming seaside village of Devonport. With stunning views of the skyline, Rangitoto Island, and sparkling waters, this short ride offers a relaxing and unforgettable way to explore the beauty of Auckland.
+			</p>
+
+			
+	<h2 id="h2">Auckland Zoo</h2>
+			<p id="p3">Discover the wild heart of New Zealand at Auckland Zoo, where you can get up close with the country’s extraordinary native wildlife, including the elusive kiwi, cheeky kea, and ancient tuatara. Nestled in lush parkland just minutes from the city center, the zoo offers an unforgettable journey through Aotearoa’s unique ecosystems and conservation efforts.</p>
+
+	
+     <h2 class="paragraph-header">Queen Street and Viaduct Harbour</h2>
+			<p class="paragraph-text">Experience the vibrant energy of Auckland’s Queen Street, the city’s premier shopping and entertainment hub, lined with top boutiques, lively cafes, and historic architecture. Just a short stroll away, unwind at Viaduct Harbour, where sparkling waterfront views, world-class dining, and buzzing nightlife create the perfect spot to soak up Auckland’s coastal charm.
+			</p>
+
+	   
+	<h2 id="h2">Auckland Art Gallery</h2>
+			<p id="p3">Step into the Auckland Art Gallery Toi o Tāmaki, home to New Zealand’s most extensive collection of national and international art, set within a stunning blend of historic and contemporary architecture. From powerful Māori and Pacific works to renowned global masterpieces, the gallery offers a rich cultural experience in the heart of the city.
+			</p>
+
+	   
+     <h2 class="paragraph-header">Sky Tower</h2>
+			<p class="paragraph-text">Soaring 328 meters above the city, the Auckland Sky Tower offers breathtaking 360-degree views of Auckland’s skyline, harbor, and beyond. Whether you're dining in the rotating restaurant, testing your courage on the SkyWalk, or simply soaking in the sights, it's an iconic experience not to be missed.
+			</p>
+
+
+	   
+	  <hr><br>
+	
+
+		<div class="content">
+
+				<h2 id="h-content2">WELLINGTON</h2>
+					<h3 subheading>Te-Whanganui-a-Tara</h3>
+					<p>Tucked between a picturesque harbour and lush, forested hills, Wellington is New Zealand’s serene capital, renowned for its stunning scenery and creative spirit. Known for its creative energy, the city is home to world-class museums like Te Papa Tongarewa, a thriving café culture, and a buzzing arts and film industry. Visitors can explore the world’s windiest city by ride the iconic Wellington Cable Car, strolling through the charming beachside on Oriental Parade, or hike to the top of Mount Victoria for panoramic views. With its walkable city centres, dynamic culinary scene, and coastal charm, Wellington is a must-see destination for travellers seeking both relaxation and inspiration.
+		</p>						
+					
+	</div>
+	
+	
+	        <h2 class="paragraph-header">The Beehive</h2>
+			<p class="paragraph-text">Located in the heart of Wellington, the Beehive is an iconic symbol of New Zealand’s political landscape and architectural innovation. With its unique, futuristic design, this striking building offers visitors an intriguing glimpse into the country's government workings. Take a guided tour to explore its history, stunning views of the capital, and learn about New Zealand's political processes. Whether you're a history buff or simply in search of a distinctive Wellington experience, the Beehive is a must-visit destination for any traveler.
+			</p>
+	   
+	   
+	        <h2 id="h2">Wellington Botanic Gardens & Cable Car</h2>
+			<p id="p3">The Wellington Cable Car is a popular tourist attraction, offering stunning views of the city as it ascends from Lambton Quay to the top of Kelburn Hill. At the summit, visitors can explore the beautiful Wellington Botanic Garden, which features lush landscapes, native plants, and scenic walking paths. The combination of the cable car ride and the tranquil garden provides a perfect blend of nature and city views, making it a must-see for both locals and tourists. Together, they promote Wellington as a vibrant destination for outdoor enthusiasts and those looking to experience the city's natural beauty.
+			</p>
+	   
+	   
+	   <h2 class="paragraph-header">Museum of New Zealand Te Papa Tongarewa</h2>
+			<p class="paragraph-text">Te Papa, New Zealand's national museum, plays a significant role in promoting tourism to Wellington by offering a world-class cultural experience. Located on the waterfront, the museum showcases the country's rich history, art, and natural heritage through interactive exhibits and thought-provoking displays. Its combination of innovative exhibitions and free entry draws visitors from around the globe, eager to explore New Zealand’s diverse cultural story. As a hub for both education and entertainment, Te Papa strengthens Wellington’s position as a vibrant cultural destination.
+			</p>
+	   
+	   
+	   
+	   
+	</div>
+	
+	
+
+	
+	
+	
+	
+	
+	
+	<footer class="footer">
+        <div class="footer-content">
+            <p id="p1">&copy; 2025 NZ. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+	
+	
+	
+</body>
+</html>	
