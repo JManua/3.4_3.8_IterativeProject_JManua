@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Visit Aotearoa | New Zealand Travel Guide</title>
+	<!-- Add Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style_2.css" />
+	<script src="js/accordiontext.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">New Zealand</div>
+        <nav>
+         <ul>
+         <li><a href="index_3.html">Home</a></li>
+         <li><a href="page2.html">Page 2</a></li>
+         <li><a href="page3.html">Page 3</a></li>
+         <li><a href="page4.html" class="active">Page 4</a></li>
+         </ul>
+        </nav>
+    </header>
+	
+    
+    <div class="heading">
+	<h1>Explore</h1>
+        <p>Coastal NZ</p>
+	</div>
+	
+	
+   	<div class="container">
+    <div class="cards">
+      <div class="card"><a href="#h-content1">North Island</a></div>
+      <div class="card"><a href="#h-content2">South Island</a></div>
+    </div>
+	</div>
+	
+
+	<div class="content">
+					<h2 id="h-content1">Cathedral Cove</h2>
+					<h3 id="h3">Te Whanganui-A-Hei </h3>
+					
+					<p>Discover the breathtaking beauty of Cathedral Cove, one of New Zealand’s most iconic coastal destinations. Located on the Coromandel Peninsula, this pristine beach is famous for its dramatic rock archway, crystal-clear turquoise waters, and golden sands. Accessible by a scenic walking track or boat, Cathedral Cove is consistently voted as one of the top 50 beaches in the world and offers a perfect mix of adventure and relaxation, ideal for swimming, kayaking, or simply soaking in the natural splendor. Whether you're chasing unforgettable views or peaceful moments by the sea, Cathedral Cove is a must-visit paradise for every traveler.
+		</p>		
+
+	</div>
+
+	     <h2 id="h1">Piha Beach & Lion Rock</h2>
+			<p id="p2">Piha Beach, located just an hour west of Auckland, is a dramatic black-sand beach known for its wild beauty and powerful surf. Framed by rugged cliffs and dominated by the iconic Lion Rock, Piha is a favorite for surfers, photographers, and nature lovers alike. Whether you're catching waves, hiking nearby trails, or watching a fiery sunset over the Tasman Sea, Piha offers an unforgettable experience. Its raw, untamed charm makes it a must-visit spot for anyone seeking adventure or a taste of New Zealand’s wild west coast.
+			</p>
+
+			
+	<h2 id="h2">Ninety Mile Beach</h2>
+
+			<p id="p3">Stretching over 55 miles (89 kilometers) of unspoiled coastline, Ninety Mile Beach is a stunning natural wonder on New Zealand’s Northland region. The beach unforgettable journey through one of the country's most stunning and expansive coastal landscapes. With its endless golden sands, stunning views, and the ever-changing tides, this beach is perfect for those looking to enjoy long walks, drive along its hard-packed shoreline, or simply take in the breathtaking scenery. Whether you're into fishing, sandboarding, or simply enjoying the tranquil beauty of a remote paradise, Ninety Mile Beach is an unmissable destination for adventure seekers and beach lovers alike.</p>
+
+	
+     <h2 id="h1">Oriental Bay Beach</h2>
+			<p id="p5">Discover the stunning beauty of Oriental Bay, a premier waterfront destination in the heart of Wellington! With its golden sandy beach, sparkling blue waters, and scenic promenade, Oriental Bay is perfect for relaxing strolls, swimming, or enjoying a picnic with family and friends. Just minutes from the city center, you’ll find charming cafes, vibrant street art, and breathtaking views of the harbor—making it an ideal spot to soak up the local culture and natural charm. Whether you’re seeking adventure or tranquility, Oriental Bay offers something unforgettable for every traveler.
+			</p>
+
+
+	  <hr><br>
+	
+
+		<div class="content">
+
+				<h2 id="h-content2">Kaiteriteri Beach</h2>
+					<p>Visit the stunning Kaiteriteri Beach, located on the golden shores of Tasman Bay in New Zealand’s South Island. Renowned for its crystal-clear turquoise waters and soft, golden sands, Kaiteriteri is the perfect destination for relaxation, swimming, kayaking, and exploring the nearby Abel Tasman National Park. Whether you’re seeking adventure or tranquility, this beautiful beach offers a breathtaking coastal experience that will leave you enchanted. Ideal for families, couples, and solo travelers alike, Kaiteriteri Beach is a must-visit gem for anyone exploring New Zealand.
+		</p>						
+					
+	</div>
+	
+	
+	        <h2 id="h1">Pōhara Beach</h2>
+			<p id="p2">Explore the serene beauty of Pōhara Beach, a hidden gem nestled in New Zealand’s Tasman region. With its golden sands, crystal-clear waters, and stunning coastal views, Pōhara Beach is perfect for relaxing, swimming, and kayaking. Surrounded by native bush and vibrant wildlife, it offers a peaceful escape from the everyday. Whether you’re seeking adventure or tranquility, Pōhara Beach invites you to experience nature’s calm in a truly unforgettable setting.
+			</p>
+	   
+	   
+	        <h2 id="h2">Wharariki Beach</h2>
+			<p id="p3">For travelers seeking wild, untouched natural beauty, Wharariki Beach is a must-see destination. The view is famous for the Archway Islands, a small archipelago of four islands ranging from the beachside. It is also the default lock screen image on Microsoft's Windows 10 operating system. Located near Farewell Spit at the northern tip of the South Island, this remote world-famous beach features stunning rock formations, sea caves, and vast sand dunes. It’s perfect for hiking, photography, and spotting playful seals, offering a raw coastal experience far from the crowds.
+			</p>
+	   
+	   
+	   <h2 id="h1">St Clair Beach</h2>
+			<p id="p5">St. Clair Beach, located just south of Dunedin city, is a vibrant spot loved by surfers and beachgoers alike. With consistent waves, a long sandy shore, and a bustling promenade, it’s a fantastic place to try surfing or simply enjoy a scenic coastal walk. The beachside cafes and saltwater pool add to the lively yet relaxed vibe, making it a great destination for visitors looking to experience local Kiwi beach culture.
+			</p>
+	   
+
+	
+	
+	
+	
+	<footer class="footer">
+        <div class="footer-content">
+            <p id="p1">&copy; 2025 NZ. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+	
+	
+	
+</body>
+</html>	
