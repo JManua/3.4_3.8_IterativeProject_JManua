@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Visit Aotearoa | New Zealand Travel Guide</title>
+	<!-- Add Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style_3.css" />
+	<script src="js/accordiontext.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">New Zealand</div>
+        <nav>
+         <ul>
+         <li><a href="index_3.html">Home</a></li>
+         <li><a href="page2.html">Page 2</a></li>
+         <li><a href="page3.html"class="active">Page 3</a></li>
+         <li><a href="page4.html">Page 4</a></li>
+         </ul>
+        </nav>
+    </header>
+	
+    
+    <div class="heading">
+	<h1>Explore</h1>
+        <p>Alpine NZ</p>
+	</div>
+	
+	
+   	<div class="container">
+    <div class="cards">
+      <div class="card"><a href="#h-content1">Tongariro</a></div>
+      <div class="card"><a href="#h-content2">Egmont</a></div>
+	  <div class="card"><a href="#h-content3">Aoraki</a></div>
+	  <div class="card"><a href="#h-content4">Westland</a></div>
+    </div>
+	</div>
+	
+	
+	<div class="content">
+		
+        <h2 id="h-content1">Tongariro National Park</h2>
+        <p id="p6">Tongariro National Park, located in the central North Island of New Zealand, is a stunning UNESCO World Heritage site renowned for its dramatic volcanic landscapes. With its active volcanoes, emerald lakes, and diverse ecosystems, the park offers unforgettable hiking opportunities, including the famous Tongariro Alpine Crossing. Whether you're exploring the rugged terrain, or simply enjoying the breathtaking scenery, Tongariro promises an adventure like no other. 
+		</p>	
+		<p id="p3">The three active  volcanic mountains Ruapehu, Ngauruhoe (Mount Doom in “The Lord of the Rings”), and Tongariro are located in the centre of the park.  Three ski fields operate from the slopes of Mount Ruapehu, and the park is also a popular recreation area for hiking, fishing, hunting and other outdoor pursuits.  Emerald Lakes and boiling mud pools culminating at still-active Red Crater. Tongariro National Park is home to the famed Tongariro Alpine Crossing, widely regarded as one of the world's best one-day hikes.
+        </p>		
+		
+		
+    </div>
+	
+     <h2 id="h1">Tongariro Alpine Crossing Track</h2>
+			<p id="p7">Difficulty: Moderate - Hard</p>
+			<p id="p7">Duration: 6-8 hours</p>
+			<p id="p2">The Tongariro Alpine Crossing is a 19.4 km (12-mile) day hike in New Zealand’s Tongariro National Park, famous for its striking volcanic terrain and spectacular vistas. Widely regarded as one of the top one-day hikes both in New Zealand and globally, it presents a challenging yet fulfilling adventure. While the trail is open year-round, hikers should be prepared for variable weather, particularly in the winter season.
+			</p>
+
+			
+	<h2 id="h2">Tama Lakes Track</h2>
+			<p id="p8">Difficulty: Moderate </p>
+			<p id="p8">Duration: 5-6 hours</p>
+			<p id="p3">Discover the wild heart of New Zealand at Auckland Zoo, where you can get up close with the country’s extraordinary native wildlife, including the elusive kiwi, cheeky kea, and ancient tuatara. Nestled in lush parkland just minutes from the city center, the zoo offers an unforgettable journey through Aotearoa’s unique ecosystems and conservation efforts.</p>
+
+	
+		<div class="content2">
+		
+        <h2 id="h-content2">Egmont National Park</h2>
+        <p id="p9">Nestled on the western coast of New Zealand's North Island, Egmont National Park is a breathtaking natural wonder dominated by the majestic, snow-capped Mount Taranaki. Perfect for first-time visitors and outdoor enthusiasts, the park offers a diverse range of experiences—from scenic walking tracks through lush rainforests to challenging alpine climbs and panoramic summit views. With its rich Māori heritage, unique volcanic landscapes, and accessible trails, Egmont National Park is an unforgettable destination where nature and culture intertwine in spectacular fashion. Whether you're seeking adventure or tranquility, this park promises something special for every traveler.
+			</p>
+			
+     <h2 id="h5">Dawson Falls & Wilkies Pools Trail</h2>
+			<p id="p10">Difficulty: Easy</p>
+			<p id="p10">Duration: 3 hours</p>
+			<p id="p11">Head to the Dawson Falls Visitor Centre on the southern side of the mountain. From here, take the easy walk to Wilkies Pools, natural rock pools formed by lava flows. Great photo op and good for a splash on warm days.
+			</p>
+			
+			       <h2 id="h4">Pouakai Circuit</h2>
+			<p id="p12">Difficulty: Moderate</p> 
+			<p id="p12">Duration: 5-6 hours</p>
+			<p id="p9">Start early for this popular walk. The Pouakai Tarns offer an iconic mirror reflection of Mt Taranaki—one of the most photographed scenes in the park. Intermediate fitness required. The premier 2–3 day tramp in Te Papa-Kura-o-Taranaki offers spectacular views of Taranaki Maunga and the surrounding countryside. The 25 km track passes through forest, alpine tussock fields and the unique Ahukawakawa.
+			</p>
+		
+		
+    </div>
+	
+	
+	
+	        <h2 id="h-content3">Aoraki Mount Cook National Park</h2>
+        <p id="p6">Aoraki/Mount Cook National Park, located in the heart of New Zealand’s Southern Alps, is a spectacular paradise for nature lovers and adventure seekers. Home to Aoraki/Mount Cook, the highest peak in New Zealand, this park offers dramatic alpine landscapes, crystal-clear lakes, and awe-inspiring glaciers. Whether you're a seasoned mountaineer or a first-time visitor, the park provides a range of experiences, from short scenic walks to more challenging treks, all set against the backdrop of towering peaks and rugged terrain. With its starry night skies, rich Māori history, and diverse wildlife, Aoraki/Mount Cook National Park is a must-visit destination for anyone seeking to experience the raw beauty of New Zealand’s mountains and wilderness. 
+		</p>	
+	
+     <h2 id="h1">Lake Tekapo & Lake Pukaki</h2>
+			<p id="p2">Experience the dazzling blues of New Zealand’s high country with a visit to Lake Tekapo and Lake Pukaki, two of the most stunning alpine lakes in the Mackenzie Region. Lake Tekapo is famous for its pristine turquoise waters, the picturesque Church of the Good Shepherd, and vibrant lupin blooms in spring, all set beneath a canopy of stars in one of the world’s top stargazing spots. The lakeside town of the same name boasts great accomodations and restaurants with. Just a short drive away, Lake Pukaki offers equally mesmerizing views, with its glacier-fed waters reflecting the towering peak of Aoraki/Mount Cook. Together, these lakes offer an unforgettable mix of natural beauty, serenity, and dramatic mountain scenery.
+			</p>
+
+			
+	<h2 id="h2">Hooker Valley Track</h2>
+			<p id="p8">Difficulty: Easy </p>
+			<p id="p8">Duration: 3 hours</p>
+			<p id="p3">Discover the breathtaking beauty of New Zealand’s Southern Alps on the Hooker Valley Track, one of Aoraki/Mount Cook National Park’s most iconic walks. This easy, well-maintained trail offers stunning views of glacial rivers, swinging suspension bridges, and the majestic Mount Cook itself. Perfect for nature lovers and photographers alike, the 3-hour return hike culminates at the serene Hooker Lake, often dotted with icebergs. Whether you're chasing dramatic landscapes or a peaceful alpine experience, the Hooker Valley Track is a must-visit highlight of the South Island.</p>
+	
+	
+	<div class="content2">
+		
+        <h2 id="h-content4">Westland - Tai Poutini National Park</h2>
+        <p id="p9">Located on the rugged West Coast of New Zealand’s South Island, the Westland Tai Poutini National Park is a must-visit destination for nature lovers and adventure seekers alike. With its dramatic landscapes, featuring towering glaciers, lush rainforests, and awe-inspiring mountain ranges, the park offers endless opportunities for exploration. Whether you’re hiking the famous Franz Josef and Fox Glaciers, taking a scenic flight over the Southern Alps, or immersing yourself in the unique biodiversity of the region, Westland Tai Poutini promises an unforgettable experience in one of the world’s most pristine environments.
+			</p>
+			
+     <h2 id="h5">Fox’s Glacier</h2>
+			<p id="p11">Explore the breathtaking beauty of Fox Glacier, one of New Zealand’s most accessible and awe-inspiring natural wonders. Located on the West Coast of the South Island, this stunning glacier offers visitors a rare chance to experience a dynamic ice river descending through lush rainforest. The Fox Glacier Valley Walk is a popular and relatively easy hike, suitable for most fitness levels, taking about 1 hour return. For a more immersive experience, guided heli-hikes are available, allowing access to the upper glacier and offering moderate to challenging difficulty. Whether you're admiring it from the valley floor or trekking across its icy surface, Fox Glacier promises an unforgettable adventure amidst spectacular scenery.
+			</p>
+			
+			       <h2 id="h4">Franz Josef Glacier</h2>
+			<p id="p9">Deep in the heart of New Zealand’s West Coast, Franz Josef Glacier offers a dramatic and unforgettable alpine experience, where ancient ice meets lush rainforest. This UNESCO World Heritage site is one of the most accessible glaciers in the world. The Franz Josef Glacier Walk is a moderate 1.5-hour return hike that leads you through a stunning glacial valley to a viewpoint near the terminal face. For those seeking more adventure, guided heli-hikes provide access to the glacier’s upper icefalls, featuring moderate to challenging terrain with crevasses, ice caves, and spectacular views. Whether you explore on foot or by air, Franz Josef delivers an exhilarating encounter with one of nature’s most impressive forces.
+			</p>
+		
+		
+    </div>
+
+	
+
+	
+	
+	
+	<footer class="footer">
+        <div class="footer-content">
+            <p id="p1">&copy; 2025 NZ. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+	
+	
+	
+</body>
+</html>	
