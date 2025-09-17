@@ -1,0 +1,672 @@
+/* General body styles */
+.center {
+  text-align: center;
+}
+
+html {
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; /* Remove default margin */
+    font-family: 'Poppins', sans-serif; /* Use Google font Poppins */
+    color: #000; /* Default text color black */
+}
+
+/* Header container styles */
+header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Vertically center items */
+    padding: 16px 32px; /* Padding around content */
+}
+
+/* Logo text */
+.logo {
+    font-weight: 700; /* Bold text */
+    font-size: 14px; /* Small size text */
+}
+
+/* Navigation list styles */
+nav ul {
+    display: flex; /* Horizontal menu */
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    gap: 24px; /* Space between menu items */
+}
+	
+
+/* Navigation links */
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Black text */
+    font-weight: 400; /* Normal weight */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+}
+
+/* Active menu item - Home */
+nav a.active {
+    font-weight: 700; /* Bold for active */
+}
+
+
+.grid-container { /*Creates grid for my website*/
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100vh 45vh 60vh 70vh 45vh 20vh;
+  height: 100vh;
+}
+
+.nav {
+  box-sizing: border-box;
+  text-align: right;
+  background-color: rgba(0,0,0,.5);
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  animation-name: fadein;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+}
+
+.nav-logo { /*Styling for logo in the navigation*/
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.nav-logo img {width:75%; height:auto;}
+
+/* CSS for block menu starts here */
+ul {
+  display: inline;
+  padding: 20px 0px 0px 0px;
+  list-style: none;
+}
+
+
+ul li {
+  font-size: 20px;
+  font-weight: 550;
+  font-style: normal;
+  display: inline-block;
+  position: relative;
+  padding: 13px 30px 17px; /*padding for main block menu buttons */
+}
+
+
+ul li:hover {
+  a {color:#808080;} /*When box is hovered over, text color changes to gray*/
+  background: white;
+  }
+ 
+/* Hover Colours*/
+a:link {color: black;} /* unvisited link */
+a:visited {color:#000;} /* visited link */
+a:hover {color: black;} /* mouse over link */
+a:active {color:#000;}  /* selected link */
+
+a {
+text-decoration: none;
+}
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px; /* space between each drop-down menu list */
+  left: 0;
+  width: 175px; /* width of drop-down menu list */
+  display: none;
+  visibility: hidden; /* this hides the drop-down menu list */
+  z-index: 1; /* for overlapping divs, bringing to the front like a drop down menu */
+}
+
+ul li ul li {
+  background: black; /* this is the drop-down menu background color */
+  display: block;
+}
+ul li ul li:hover { background: grey;} /* this is the drop-down menu hover on blocks */
+
+ul li:hover ul {
+  display: block;
+  visibility: visible; /* this makes the drop-down menu visible*/
+}
+
+/* Heading section container */
+.heading {
+    background-color: #d3d3d3; /* Light gray background */
+    padding: 300px 32px; /* Large padding top/bottom, some left/right */
+    width: 100%; /* Fill full viewport width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Heading section container */
+.image {
+  position: relative; /* This is essential for the pseudo-element to work correctly */
+  background-image: url(../images/peak72.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 300px 32px;
+  box-sizing: border-box;
+}
+
+/* Add the pseudo-element for the semi-transparent overlay */
+.image::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity (0.7) as needed */
+  z-index: 0; /* Place the overlay behind the text content */
+}
+
+/* Ensure the text and underline are positioned correctly and are on top of the overlay */
+.image h1,
+.image p,
+.image .underline {
+  position: relative; /* This creates a new stacking context for these elements */
+  z-index: 1; /* This ensures they stack on top of the pseudo-element (z-index: 0) */
+  color: white; /* Make sure the text color is light enough to be seen */
+}
+
+/* text styles are applied */
+.image h1 {
+  font-weight: 500;
+  font-size: 100px;
+  margin: 0 0 8px 0;
+  padding-left: 100px;
+}
+
+.image p {
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 100px;
+	
+}
+
+
+.container {
+  text-align: center;
+  background-color: black;
+  margin-bottom: 50px;
+  padding-bottom: 100px;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+
+.card {
+  background-color: #d7d7d7;
+  color: white;
+  width: 400px;
+  height: 250px;
+  font-family: 'Poppins', sans-serif; /* Use Google font Poppins */
+  border-radius: 10px;
+  font-weight: bold; /* Bold text*/
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s;
+}
+
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Optional: for cleaner borders */
+  }
+  th, td {
+    border: 0px solid black; /* Optional: for visible borders */
+    padding: 8px; /* Optional: for spacing within cells */
+    text-align: left; /* Optional: for text alignment */
+	vertical-align: top; /* Optional: for cell alignment top middle bottom */
+  }
+  .col1 {
+    width: 25%;
+  }
+  .col2 {
+    width: 25%;
+  }
+  .col3 {
+    width: 25%;
+  }
+  .col4 {
+    width: 25%;
+  }
+
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+
+/* Content section styles */
+.content {
+    width: 100%; /* Fill full viewport width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+
+/* Content section styles */
+.content2 {
+    width: 100%; /* Fill full viewport width */
+    box-sizing: border-box; /* Include padding in width */
+	padding-top: 50px;
+	background-color: black;
+}
+
+
+
+#h1 {
+    font-weight: 700; /* Bold */
+    font-size: 30px; /* Medium size */
+	color: black;
+	display: flex; /* Activates Flexbox for its text */
+  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+}
+
+
+#h2 {
+    font-weight: 700; /* Bold */
+    font-size: 30px; /* Medium size */
+	color: black;
+	padding-left: 50px;
+	  align-items: center; /* Vertically centers text */
+  justify-content: left; /* Horizontally centers text */
+  margin: auto;
+}
+
+#h-content1 {
+    font-weight: 700px; /* normal */
+    font-size: 40px; /* Large text */
+    padding-top: 50px;/* Positions text */
+	padding-left: 50px;
+	color: black;
+}
+
+#h-content2 {
+    font-weight: 700; /* Bold */
+    font-size: 40px; /* Medium size */
+	padding-left: 50px;/*positioning text*/
+	color: white;
+}
+
+#h-content3 {
+    font-weight: 700; /* Bold */
+    font-size: 40px; /* Medium size */
+	padding-top: 50px;
+	padding-left: 50px; /*positioning text*/
+	color: black;
+}
+
+
+#h-content4 {
+    font-weight: 700; /* Bold */
+    font-size: 40px; /* Medium size */
+	padding-left: 50px;  /*positioning text*/
+	color: white;
+}
+
+#h4 {
+    font-weight: 700; /* Bold */
+    font-size: 30px; /* Medium size */
+	padding-left: 50px;  /*positioning text*/
+	color: white;
+	  align-items: center; /* Vertically centers text */
+  justify-content: left; /* Horizontally centers text */
+  margin: auto;
+}
+
+#h5 {
+    font-size: 30px; /* Medium size */
+	padding-left: 50px; /*positioning text*/
+	color: white;
+	display: flex; /* Activates Flexbox for its text */
+  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+}
+
+
+
+#p2 {
+font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+    box-sizing: border-box; /* Include padding in width */
+	color: black;
+		display: flex; /* Activates Flexbox for its text */
+  align-items: center; /* Vertically centers text */
+  text-align: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+
+#p3 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	box-sizing: border-box; /* Include padding in width */
+	padding-left: 50px;
+	padding-top: 20px;/*positioning text*/
+	color: black;
+	  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+
+#p4 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	padding: 30px 40px 150px 650px; /*positioning text*/
+	color: black;
+	  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p5 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	padding: 30px 40px 100px 650px; /*positioning text*/
+	color: black;
+	  align-items: center; /* Vertically centers text */
+  justify-content: left; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p6 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	box-sizing: border-box; /* Include padding in width */
+	padding: 30px 700px 30px 50px; /*positioning text*/
+	color: black;
+	  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p7 {
+font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+    box-sizing: border-box; /* Include padding in width */
+	color: black;
+		display: flex; /* Activates Flexbox for its text */
+  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p8 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	box-sizing: border-box; /* Include padding in width */
+	padding-left: 50px;
+	color: black;
+	  align-items: center; /* Vertically centers text */
+  justify-content: left; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p9 {
+	font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	box-sizing: border-box; /* Include padding in width */
+	padding-left: 50px;
+	color: white;
+	  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p10 {
+font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+    box-sizing: border-box; /* Include padding in width */
+	color: white;
+		display: flex; /* Activates Flexbox for its text */
+  align-items: center; /* Vertically centers text */
+  justify-content: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p11 {
+    font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+    box-sizing: border-box; /* Include padding in width */
+	color: white;
+		  align-items: center; /* Vertically centers text */
+  text-align: right; /* Horizontally centers text */
+  margin: auto;
+}
+
+#p12 {
+	font-weight: 400; /* Normal */
+    font-size: 20px; /* Standard readable font size */
+    line-height: 1.5; /* Line spacing for readability */
+	box-sizing: border-box; /* Include padding in width */
+	padding-left: 50px; /*positioning text*/
+	color: white;
+	  align-items: center; /* Vertically centers text */
+  justify-content: left; /* Horizontally centers text */
+  margin: auto;
+}
+
+.image2 {
+  width: 500px;
+  height: 400px;
+  margin-left: 50px;
+  padding: 100px 150px;
+  background-image: url('../images/tongariro72.jpg');
+  background-repeat: no-repeat;
+  display: block;
+  object-fit: cover; /* Scales and crops the image to fill the container */
+  object-position: 50% 50%; /* Centers the cropped area (adjust as needed) */
+}
+
+
+.image3 {
+  width: 600px;
+  height: 500px;
+  margin-left: 50px;
+  padding: 100px 150px;
+  background-image: url('../images/alpinetrack72.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.image4 {
+  width: auto;
+  height: 400px;
+  margin-left: 50px;
+  padding: 300px 250px;
+  background-image: url('../images/tamalake72.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.image5 {
+  width: auto;
+  height: 400px;
+  margin-left: 50px;
+  padding: 300px 250px;
+  background-image: url('../images/taranaki72.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image6 {
+  width: auto;
+  height: 400px;
+  margin-left: 50px;
+  padding: 300px 250px;
+  background-image: url('../images/pool72.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image7 {
+  width: auto;
+  height: 400px;
+  margin-left: 50px;
+  padding: 100px 150px;
+  background-image: url('../images/pouakai72.jpg');
+  background-repeat: no-repeat;
+  display: block;
+}
+
+
+.image8 {
+  width: auto;
+  height: 400px;
+  margin-left: 50px;
+  padding: 300px 250px;
+  background-image: url('../images/mtcook272.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image9 {
+  width: auto;
+  height: 400px;
+  margin-left: 50px;
+  padding: 400px 250px;
+  background-image: url('../images/laketekapo72.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image10 {
+  width: auto;
+  height: 400px;
+  margin-left: 50px;
+  padding: 400px 250px;
+  background-image: url('../images/hookervalley72.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.image11 {
+  width: auto;
+  height: 400px;
+  margin-left: 50px;
+  padding: 400px 300px;
+  background-image: url('../images/westland72.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.image12 {
+  width: auto;
+  height: 400px;
+  margin-left: 50px;
+  padding: 400px 300px;
+  background-image: url('../images/foxglacier72.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.image13 {
+  width: auto;
+  height: 400px;
+  margin-left: 50px;
+  padding: 400px 300px;
+  background-image: url('../images/franzjosef72.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Footer Styles */
+.footer {
+    background-color: black;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.footer .social-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .footer .social-links {
+        font-size: 14px;
+    }
+}
+
+darken {
+  color: #3F56A8;
+}
